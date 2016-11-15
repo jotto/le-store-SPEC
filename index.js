@@ -57,7 +57,7 @@ module.exports.create = function (options) {
       };
       */
 
-      cb(null, memDb.accounts[accountId]);
+      cb(null, memDb.accountKeypairs[accountId]);
     }
     // Accounts
   , checkKeypair: function (opts, cb) {
